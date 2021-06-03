@@ -22,3 +22,5 @@
   confusion matrix改成四類, 每類之間用類別正確率區分
   
   ( ￣ 3￣)y▂ξ
+  
+  ver2.0 更改 predict方法, 發現 generator跟直接處理的數值不相同, 等後續修改
