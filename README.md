@@ -19,5 +19,6 @@
   
   不知道是Alexnet用在 oxford 102的問題還是其他??
   
-  confusion matrix改為兩個分類, 一張是分類正確率(各類別分類)大於.5的, 另一張是分類正確率小於.5的
+  confusion matrix改成四類, 每類之間用類別正確率區分
+  
   ( ￣ 3￣)y▂ξ
