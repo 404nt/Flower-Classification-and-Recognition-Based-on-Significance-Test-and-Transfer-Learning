@@ -24,3 +24,9 @@
   ( ￣ 3￣)y▂ξ
   
   ver2.0 更改 predict方法, 發現 generator跟直接處理的數值不相同, 等後續修改
+  
+0604更新:
+
+  現行版本的Saliency, VGG16應該都修改完成了, 剩下AlexNet可能還可以訓練的更好一點(tensorflow api)
+  
+  
