@@ -29,4 +29,5 @@
 
   現行版本的Saliency, VGG16應該都修改完成了, 剩下AlexNet可能還可以訓練的更好一點(tensorflow api)
   
+  ![image](https://github.com/404nt/Flower-Classification-and-Recognition-Based-on-Significance-Test-and-Transfer-Learning/blob/main/saliency_vgg16_hitroy_lr31.jpg)
   
