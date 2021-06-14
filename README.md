@@ -16,4 +16,6 @@
   上圖為alexnet訓練結果, 最終預測正確率為0.7176<br>
   ![image](https://i.imgur.com/wXKoGWQ.jpg)<br>
   上圖為saliency alexnet, 最終正確率為0.5782<br>
-  
+  |AlexNet|saliency AlexNet|
+  |-------|----------------|
+  |![image](https://i.imgur.com/jvvuX6l.jpg)|![image](https://i.imgur.com/wXKoGWQ.jpg)
