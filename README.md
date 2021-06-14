@@ -12,8 +12,11 @@
 ## 0613更新:<br>
   使用pca augmentation的alexnet已經訓練完畢, 以100個epochs來說訓練結果跟不使用augmentation的alexnet差異很小<br>
   之前嘗試使用early stopping的方式, 但後來發現預測結果不如訓練100個epochs, 為了與後續的saliency alexnet做比較想說就讓兩種都以100個epoch為準<br>
-  ![image](https://i.imgur.com/wXKoGWQ.jpg)
+  ![image](https://i.imgur.com/jvvuX6l.jpg)<br>
+  上圖為alexnet訓練結果, 最終預測正確率為0.7176<br>
+  ![image](https://i.imgur.com/wXKoGWQ.jpg)<br>
+  上圖為saliency alexnet, 最終正確率為0.5782<br>
   ###
-  ![image](https://github.com/404nt/Flower-Classification-and-Recognition-Based-on-Significance-Test-and-Transfer-Learning/blob/main/saliency_vgg16_hitroy_lr31.jpg)
+  ![image](https://github.com/404nt/Flower-Classification-and-Recognition-Based-on-Significance-Test-and-Transfer-Learning/blob/main/saliency_vgg16_hitroy_lr31.jpg)<br>
   上圖為saliency vgg16在lr=0.03, momentum=0.1的訓練結果<br>
   
