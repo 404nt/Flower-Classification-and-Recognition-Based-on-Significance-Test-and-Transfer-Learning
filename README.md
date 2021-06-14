@@ -16,7 +16,4 @@
   上圖為alexnet訓練結果, 最終預測正確率為0.7176<br>
   ![image](https://i.imgur.com/wXKoGWQ.jpg)<br>
   上圖為saliency alexnet, 最終正確率為0.5782<br>
-  ###
-  ![image](https://github.com/404nt/Flower-Classification-and-Recognition-Based-on-Significance-Test-and-Transfer-Learning/blob/main/saliency_vgg16_hitroy_lr31.jpg)<br>
-  上圖為saliency vgg16在lr=0.03, momentum=0.1的訓練結果<br>
   
