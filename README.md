@@ -11,6 +11,26 @@
   現行版本的Saliency, VGG16應該都修改完成了, 剩下AlexNet可能還可以訓練的更好一點(tensorflow api)<br>
 ## 0613更新:<br>
   使用pca augmentation的alexnet已經訓練完畢, 以100個epochs來說訓練結果跟不使用augmentation的alexnet差異很小<br>
+  '''
+    test_image=image.img_to_array(inputdata)/255
+    reshape_image=np.reshape(test_image,(test_image.shape[0]*test_image.shape[1],3)) #攤平為RGB三維度
+    centered_image=reshape_image-reshape_image.mean(axis=0)
+    # Find 3 x 3 covariance martix
+    img_cov=np.cov(centered_image, rowvar=False)
+    # Get eigen values and eigen vectors
+    eigen_vals, eigen_vecs=np.linalg.eigh(img_cov)
+    # Get principal components[p1, p2, p3]
+    sort=eigen_vals[::-1].argsort()
+    eigen_vals[::-1].sort()     
+    eigem_vecs=eigen_vecs[:, sort]
+    pc=np.column_stack((eigen_vecs))
+    rand=np.random.normal(0, 0.1, 3)
+    delta=eigen_vals*rand
+    add_v=np.dot(pc,delta) #隨機增強 [p1, p2, p3][α1λ1, α2λ2, α3λ3]T
+    outputdata=np.zeros(shape=(test_image.shape[0],test_image.shape[1],test_image.shape[2]))
+    for k in range(test_image.shape[2]):
+        outputdata[:,:,k]=test_image[:,:,k]+add_v[k]#依據RGB做訊號增強
+  '''
   之前嘗試使用early stopping的方式, 但後來發現預測結果不如訓練100個epochs, 為了與後續的saliency alexnet做比較想說就讓兩種都以100個epoch為準<br>
   |AlexNet|saliency AlexNet|
   |-|-|
