@@ -12,10 +12,6 @@
 ## 0613更新:<br>
   使用pca augmentation的alexnet已經訓練完畢, 以100個epochs來說訓練結果跟不使用augmentation的alexnet差異很小<br>
   之前嘗試使用early stopping的方式, 但後來發現預測結果不如訓練100個epochs, 為了與後續的saliency alexnet做比較想說就讓兩種都以100個epoch為準<br>
-  ![image](https://i.imgur.com/jvvuX6l.jpg)<br>
-  上圖為alexnet訓練結果, 最終預測正確率為0.7176<br>
-  ![image](https://i.imgur.com/wXKoGWQ.jpg)<br>
-  上圖為saliency alexnet, 最終正確率為0.5782<br>
   |AlexNet|saliency AlexNet|
-  |-|-|
+  |下圖為alexnet訓練結果, 最終預測正確率為0.7176|下圖為saliency alexnet, 最終正確率為0.5782|
   |![image](https://i.imgur.com/jvvuX6l.jpg)|![image](https://i.imgur.com/wXKoGWQ.jpg)
