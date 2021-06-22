@@ -1,4 +1,5 @@
-# Flower-Classification-and-Recognition-Based-on-Significance-Test-and-Transfer-Learning
+# Flower Classification and Recognition 
+# Based on Significance Test and Transfer Learning
 ## 0529更新:<br>
   data generator以 flower_data中的 train資料集以 8:2分割成 training, validation dataset<br>
   並重新訓練原版 VGG16, Saliency VGG16在predict部分使用 flower_data中的 valid資料集做預測,<br>
