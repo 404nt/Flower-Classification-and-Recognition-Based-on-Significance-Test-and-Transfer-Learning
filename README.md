@@ -39,5 +39,8 @@
   |![image](https://i.imgur.com/jvvuX6l.jpg)|![image](https://i.imgur.com/wXKoGWQ.jpg)
 ## 0630更新:<br>
   Guided Grad-CAM:Saliency VGG16 & oringinal VGG16的選擇3個預測結果最差的class(4, 85, 101)並做出guided grad-cam<br>
-  ![image](https://imgur.com/9GpWyU5)
+  共繪製出16張,每張圖片的上部為oringinal,下部為saliency結果.以下貼出其中幾張
+  ![image](https://imgur.com/9GpWyU5.jpg)
+  ![image](https://imgur.com/NMzYEin.jpg)
+  ![image](https://imgur.com/xqtaSx9.jpg)
   
