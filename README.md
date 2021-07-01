@@ -37,3 +37,7 @@
   |-|-|
   |下圖為alexnet訓練結果, 最終預測正確率為0.7176|下圖為saliency alexnet, 最終正確率為0.5782|
   |![image](https://i.imgur.com/jvvuX6l.jpg)|![image](https://i.imgur.com/wXKoGWQ.jpg)
+## 0630更新:<br>
+  Guided Grad-CAM:Saliency VGG16 & oringinal VGG16的選擇3個預測結果最差的class(4, 85, 101)並做出guided grad-cam<br>
+  ![image](https://imgur.com/9GpWyU5)
+  
